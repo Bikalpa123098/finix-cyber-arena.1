@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+            
+
+</head>
+<body>
+    <div class="flex flex-col h-screen bg-gray-900 text-gray-100 font-sans">
+        <!-- Top Section - Dual Panels -->
+        <div class="flex-1 flex gap-4 p-4 h-[50vh]">
+          <!-- DATA FORTRESS -->
+          <div class="flex-1 border border-gray-700 bg-gray-800 rounded-lg p-4">
+            <div class="flex justify-between items-center mb-4">
+              <h2 class="text-lg font-semibold text-green-400">🛡️ DATA FORTRESS</h2>
+              <div class="w-1/2">
+                <div class="bg-gray-700 h-2 rounded-full">
+                  <div class="bg-green-500 h-full w-[85%] rounded-full"></div>
+                </div>
+                <span class="text-sm text-gray-400">85% Integrity</span>
+              </div>
+            </div>
+            <div class="space-y-3">
+              <div class="bg-gray-700 p-3 rounded-md">
+                <div class="flex items-center gap-2 text-gray-100">
+                  <span>📁 Core_Files</span>
+                </div>
+                <div class="mt-2 flex justify-between text-sm text-green-400">
+                  <span>🔥 Lv.4</span>
+                  <span>🔒 AES-256</span>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- TARGET SYSTEMS -->
+          <div class="flex-1 border border-gray-700 bg-gray-800 rounded-lg p-4">
+            <div class="flex justify-between items-center mb-4">
+              <h2 class="text-lg font-semibold text-red-400">💀 TARGET SYSTEMS</h2>
+              <div class="w-1/2">
+                <div class="bg-gray-700 h-2 rounded-full">
+                  <div class="bg-red-500 h-full w-[45%] rounded-full"></div>
+                </div>
+                <span class="text-sm text-gray-400">45% Detected</span>
+              </div>
+            </div>
+            <div class="space-y-3">
+              <div class="bg-gray-700 p-3 rounded-md">
+                <div class="flex items-center gap-2 text-gray-100">
+                  <span>📁 Secret_Plans</span>
+                </div>
+                <div class="mt-2 flex justify-between text-sm text-red-400">
+                  <span>🕳 SQLi</span>
+                  <span>🔄 25%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Bottom Section - Terminal -->
+        <div class="flex-1 border-t border-gray-700 bg-gray-800 p-4 h-[50vh]">
+          <div class="flex justify-between items-center mb-4">
+            <h2 class="text-lg font-semibold text-green-400">⚡ TERMINAL v3.1.5</h2>
+            <div class="flex items-center gap-2 text-green-400">
+              <span class="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse"></span>
+              <span class="text-sm">ONLINE</span>
+            </div>
+          </div>
+          <div class="bg-gray-900 h-[calc(100%-40px)] p-3 rounded-md">
+            <pre class="text-sm mb-3 overflow-y-auto h-[80%] text-gray-300">
+      > Initializing security protocols...
+      > Scanning network...
+      > Firewall active
+      > Encryption module engaged</pre>
+            <div class="flex items-center gap-2 border-b border-green-500">
+              <span class="text-green-500">></span>
+              <input type="text" 
+                    class="bg-transparent border-none w-full text-gray-100 focus:outline-none placeholder-gray-500"
+                    placeholder="Enter command...">
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
